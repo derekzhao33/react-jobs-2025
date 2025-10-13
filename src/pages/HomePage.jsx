@@ -1,8 +1,8 @@
 import React from 'react'
-import MainLayout from '../layouts/MainLayout'
 import Hero from '../components/Hero'
 import HomeCards from '../components/HomeCards'
 import JobListings from '../components/JobListings'
+import ViewJobs from '../components/ViewJobs'
 
 const HomePage = () => {
   return (
@@ -10,6 +10,7 @@ const HomePage = () => {
       <Hero />
       <HomeCards />
       <JobListings />
+      <ViewJobs />
     </>
   )
 }
