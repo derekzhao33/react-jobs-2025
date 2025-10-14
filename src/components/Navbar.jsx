@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../assets/images/logo.png';
+import { FaBriefcase } from "react-icons/fa";
+
 
 const Navbar = () => {
 
@@ -14,12 +16,10 @@ const Navbar = () => {
           <div className="flex h-20 items-center justify-between">
             <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
               <NavLink className="flex flex-shrink-0 items-center mr-4" to="/">
-                <img
-                  className="h-10 w-auto"
-                  src={logo}
-                  alt="React Jobs"
-                />
-                <span className="hidden md:block text-white text-2xl font-bold ml-2">React Jobs</span>
+                <div className="text-white mr-2">
+                  <FaBriefcase className='h-8 w-auto'/>
+                </div>
+                <span className="hidden md:block text-white text-2xl font-bold ml-2">Job Board</span>
               </NavLink>
               <div className="md:ml-auto">
                 <div className="flex space-x-2">
