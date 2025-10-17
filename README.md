@@ -66,5 +66,5 @@ react-jobs-2025/
 - `npm run server` — Start JSON Server (mock API)
 
 ## Credits
-This project was inspired by [Traversy Media's React Job Board Tutorial](https://www.youtube.com/watch?v=LDB4uaJ87e0&t=5725s).
+This project was inspired by [Traversy Media's React Job Board Tutorial](https://youtu.be/LDB4uaJ87e0?si=Tstutm-Mi0Tdr_Ne).
 
